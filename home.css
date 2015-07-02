@@ -3,7 +3,7 @@
   src: url(fonts/Reckoner.ttf) format("truetype");
 }
 
-.starter-template {
+.header {
   padding-top: 200px;
   text-align: center;
   height: 600px;
@@ -26,7 +26,6 @@
   margin-top: 120px;
   margin-bottom: 120px;
   font-family: 'Vollkorn', serif;
-  /*font-family: 'Lato', sans-serif;*/
   font-weight: 100;
   font-size: 30px;
 }
@@ -84,26 +83,6 @@
   color: #B20000;
 }
 
-.port-item {
-    text-decoration: none;
-    font-family: 'Reckoner';
-    font-weight: 800;
-    font-style: italic;
-}
-
-.port-item:hover {
-    text-decoration: none;
-}
-
-.title {
-  font-family: 'Vollkorn', serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Oranienbaum';
-  font-weight: 300;
-  font-size: 40px;
-  
-}
-
 .portfolio-title {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -148,42 +127,6 @@
     -ms-transition:     color .5s;
     -o-transition:      color .5s;
     transition:         color .5s;
-}
-
-.lets-talk-sub {
-  margin-right: 10px;
-  margin-left: 80px;
-  padding-bottom: 56px;
-  font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  color: black;
-/*  text-align: center;*/
-}
-
-.lets-talk-sub > a {
-    color: black;
-}
-
-.lets-talk-sub > a:hover {
-    color: #006699;
-    text-decoration: none;
-    -webkit-transition: color .5s;
-    -moz-transition:    color .5s;
-    -ms-transition:     color .5s;
-    -o-transition:      color .5s;
-    transition:         color .5s;
-}
-
-.lets-talk-title {
-  margin-right: 100px;
-  margin-left: 100px;
-  padding-top: 53px;
-  
-  font-family: 'Oranienbaum';
-  color: #B20000;
-  font-size: 45px;
-/*  text-align: center;*/
-  font-style: italic;
 }
 
 .social-box {
