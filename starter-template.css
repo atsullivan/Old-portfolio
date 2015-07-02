@@ -219,6 +219,22 @@
     background-color: #707070;
 }
 
+.phone-section {
+    background-color: #4CD964;
+}
+
+.phone-section:hover {
+    background-color: #82E492;
+}
+
+.mail-section {
+    background-color: #1D62F0;
+}
+
+.mail-section:hover {
+    background-color: #6191F4;
+}
+
 .facebook-section {
     background-color: #3b5998;
 }
