@@ -154,6 +154,10 @@
     background-color: #4DB8FF;
 }
 
+.peek-section > a:hover {
+    text-decoration: none;
+}
+
 .ludus-section {
     background-color: #003366;
     font-family: 'Reckoner';
@@ -163,6 +167,10 @@
 
 .ludus-section:hover {
     background-color: #4D7094;
+}
+
+.ludus-section > a:hover {
+    text-decoration: none;
 }
 
 .gray-section {
