@@ -143,7 +143,20 @@
     text-align: center;
     padding: 75px;
 }
-
+.dream-in-code-box {
+  font-size: 40px;
+  padding: 100px;
+}
+.dream-in-code-section {
+  background-color: black;
+  font-family: 'Ailerons';
+}
+.dream-in-code-section:hover {
+  background-color: #4D4D4D;
+}
+.dream-in-code-section > a:hover {
+    text-decoration: none;
+}
 .peek-section {
     background-color: #0099FF;
     font-family: 'Lato', sans-serif;
