@@ -2,7 +2,10 @@
   font-family: "Reckoner";
   src: url(fonts/Reckoner.ttf) format("truetype");
 }
-
+@font-face {
+  font-family: "SantElia";
+  src: url(fonts/SantEliaRoughAltBoldThrDEMO.otf) format("truetype");
+}
 
 
 
@@ -14,12 +17,12 @@
   left:0;
 }
 .blurred-container > .img-src{
-    position:fixed;
-    width:100%;
-    height:750px;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center center;
+  position:fixed;
+  width:100%;
+  height:750px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
 }
 .title-text {
   position: absolute; 
@@ -205,6 +208,26 @@
 
 .peek-section > a:hover {
     text-decoration: none;
+}
+
+.wedding-section {
+  background-color: #EEEEEE;
+  background-color: #E6C2CE;
+  background-color: #FFE0C2;
+  font-family: "SantElia";
+  color: black;
+}
+
+.wedding-section:hover {
+  background-color: #FFE9D4;
+}
+
+.wedding-section .portfolio-item-box i {
+  color: black;
+}
+
+.wedding-section > a:hover {
+  text-decoration: none;
 }
 
 .ludus-section {
